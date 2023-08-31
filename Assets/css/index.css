@@ -1,0 +1,241 @@
+/* font-family: 'Luckiest Guy', cursive;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+.conteiner{
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', sans-serif; 
+
+}
+
+.main{
+    background-image: url("../images/Header.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    min-width: 428px;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-left: calc(0.2rem + 1vw);
+}
+
+.teste{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    padding-left: calc(0.2rem + 1vw);
+}
+
+img{
+    max-width: 100%;
+    margin-top: 3rem;
+}
+
+.main h1{
+    max-width: 79%;
+    margin-top: 3rem;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight: 400;
+    font-size:  calc(2.5rem + 2vw);
+    line-height: 3rem;
+    color: rgba(255, 255, 255, 1);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    
+}
+
+.main p{ 
+    font-family: 'Open Sans', sans-serif;
+    max-width: 79%;
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    line-height: 1.5rem;
+    display: block;
+    font-size: calc(1rem + 1vw);
+    align-self: center;
+    
+}
+
+
+.main .btn1{
+    background-color: rgba(255, 255, 255, 1);
+    color:rgb(64, 72, 79)
+
+}
+
+.main .btn2{
+    margin-bottom: 3rem;
+    margin-top: 1rem;
+    background-color: rgba(35, 39, 42, 1);
+    color: rgba(255, 255, 255, 1);
+ }
+ 
+.btn1, .btn2{
+    display: block;
+    align-self: center;    
+    height: 3rem;
+    border-radius: 2rem;
+    border: none;
+    width: 23rem;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+section1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 79%;
+    flex-flow: wrap;
+    text-align: left;
+    
+}
+
+section2 h2{
+    font-weight: 800;
+    font-size: calc(1rem + 2vw);
+    color:rgba(35, 39, 42, 1);
+    line-height: 2rem;
+    
+}
+
+section p{
+    color: rgba(35, 39, 42, 1);
+    font-weight: 400;
+    font-size: calc(1rem + 1vw);
+    line-height: 1.4rem;
+    
+}
+
+.sec1, .sec2{
+    max-width: 100%;
+    background-color: rgba(246, 246, 246, 1);
+}
+
+footer {
+    display: flex;
+    width: 100%;
+}
+
+
+.footer {
+    display: flex;
+    background-color:rgba(35, 39, 42, 1);
+    width: 100%; /* Certifique-se de que o elemento ocupe toda a largura disponível */
+    align-items: center; /* Garante que o elemento se estenda verticalmente */
+    justify-content: center;
+}
+
+.footer img{
+    max-width: 100%;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem auto 0;
+    padding-bottom: calc(1.8rem + 1vw) ;
+}
+
+
+
+@media screen and (min-width:720px){
+    
+    .main p {
+        line-height: 2rem;
+    }
+    
+    .main .btn2{
+        margin-bottom: 1rem;
+    }
+    
+    .btn1, .btn2{
+        width: auto; 
+        padding: 10px 20px;
+
+    }
+    
+    .teste{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        justify-self: center;
+        gap: 2.5rem;
+    }
+    
+        .section1{
+        column-count: 2;
+        width: 80%; 
+        margin: 3rem auto; 
+        word-wrap: normal;
+        }
+        
+        img{
+            margin-top: 0;
+        }
+        
+        .sec1 p{
+            font-size: 0.9rem;
+        }
+        
+        .section2{
+            column-count: 2;
+            width: 80%; 
+            margin: auto auto;  
+            
+            }
+            
+            .section2 h2{
+                margin-top: 30px;
+                line-height: 2rem;
+                
+            }
+            
+            .section2 p{
+                font-size: 0.9rem;
+            }
+            
+            .section3{
+                column-count: 2;
+                width: 80%; 
+                margin: auto auto; 
+                
+                }
+                
+                .section3 h2{
+                    line-height: 2rem;
+                    
+                }
+                
+                .section3 p{
+                    font-size: 0.9rem;
+                }
+                
+                .section4{
+                    column-count: 2;
+                    width: 80%; 
+                    margin: auto auto; 
+                    
+                    }
+                    
+                    .section4 h2{
+                        line-height: 2rem;
+                        
+                    }
+                    
+                    .section4 p{
+                        font-size: 0.9rem;
+                    }
+}
+       
